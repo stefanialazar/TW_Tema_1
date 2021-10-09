@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fafafa;
+    color: #8e8e8e;
+    font-family: monospace;
+}
+
+.content {
+    width: 70%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: #ffffff;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    line-height: 25px;
+}
+
+.topnav {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    flex-wrap: wrap;
+}
+
+#logo {
+    width: 80px;
+    position: relative;
+    height: 120%;
+    width: 10%;
+}
+
+#logohidden {
+    width: 80px;
+    position: relative;
+    height: 120%;
+    width: 10%;
+    visibility: hidden;
+}
+
+#search {
+    position: relative;
+    height: 70%;
+    margin: auto;
+    padding-right: 80px;
+    padding-left: 80px;
+    font-weight: normal;
+    border: 1px solid #e2e2e2;
+    border-radius: 5px;
+    background: #fafafa;
+    vertical-align: middle;
+    display: inline;
+}
+
+#line {
+    border: 1px solid #e2e2e2;
+}
+
+.meniu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.meniu_txt {
+    letter-spacing: 1px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photos {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 10px;
+}
+
+.photo {
+    width: 95%;
+    height: 95%;
+}
